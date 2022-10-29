@@ -26,7 +26,7 @@ const TagTemplate = ({ data, pageContext }: Props) => {
   return (
     <Layout title={pageTitle}>
       <div className="my-2 py-4 border-b border-slate-200">
-        <h1 className="capitalize inline-block mr-2 text-5xl md:text-7xl font-black">
+        <h1 className="capitalize inline-block mr-2 text-5xl md:text-7xl font-black font-normal">
           {kebabCase(tag)}
         </h1>
         <p className="inline-block text-sm">({edges.length})</p>

@@ -1,11 +1,9 @@
 ---
-slug: service-design-2022
+slug: first-30-days-as-PM
 tags:
-  - user-research
-  - service-design
+  - product-management
+excerpt: Starting a new PM
 ---
-
-Example file with customised slug
 
 # Service Blueprints
 

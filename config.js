@@ -1,26 +1,22 @@
 module.exports = {
-  url: "https://notes.desktopofsamuel.com",
+  url: "https://daljeet.io",
   pathPrefix: "",
-  SITE_TITLE: "Obsidian Garden",
-  SITE_SUBTITLE: "Gatsby Starter Made for Obsidian Users",
+  SITE_TITLE: "daljeet.io",
+  SITE_SUBTITLE: "Product Management and Development",
   SITE_DESCRIPTION:
-    "A Gatsby starter template to publish Obsidian vault for free",
-  KEYWORDS: "Gatsby, Starter, Obsidian, Digial Garden",
+    "Lessons about product management and career from the day-to-day life of a PM.",
+  KEYWORDS: "Product Management, Product Development, Self Development, Design, Psychology",
   HERO_TITLE:
-    "Free Gatsby starter template to host your own digital garden for free, created for Obsidian knowledge base.",
-  HERO_SUBTITLE: "Designed by JUXT Design",
-  COPYRIGHT: "JUXT Design",
+    "Thoughts on product, design, and psychology.",
+  HERO_SUBTITLE: "",
+  COPYRIGHT: "daljeet.io",
   LOCALE: "en",
   POST_PER_PAGE: 6,
   MENU: [
     {
       label: "About",
       path: "/about/",
-    },
-    {
-      label: "Topics",
-      path: "/topics/",
-    },
+    }
   ],
   FOOTER: [
     {
@@ -28,20 +24,12 @@ module.exports = {
       path: "/",
     },
     {
-      label: "About",
-      path: "/about/",
-    },
-    {
-      label: "Changelog",
-      path: "/changelog/",
-    },
-    {
-      label: "Github",
-      path: "https://github.com/juxtdesigncc/gatsby-starter-obsidian-garden",
-    },
+      label: "Topics",
+      path: "/topics/",
+    }
   ],
   AUTHOR: {
-    NAME: "JUXT Design",
-    TWITTER: "@juxtdesigncc",
+    NAME: "daljeet.io",
+    TWITTER: "@daljeetsan",
   },
 };

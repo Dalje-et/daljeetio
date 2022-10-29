@@ -5,16 +5,7 @@ module.exports = {
   theme: {
     fontFamily: {
       sans: [
-        "Roboto\\ Serif",
-        "-apple-system",
-        "BlinkMacSystemFont",
-        "Segoe\\ UI",
-        "Roboto",
-        "Oxygen-Sans",
-        "Ubuntu",
-        "Cantarell",
-        "Helvetica\\ Neue",
-        "sans-serif",
+        "Roboto\\ Serif"
       ],
       mono: ["Space Mono", "IBM Plex Mono", "monospace"],
     },
@@ -23,6 +14,10 @@ module.exports = {
         DEFAULT: {
           css: {
             color: theme("colors.gray.700"),
+            h1: {
+              fontWeight: "font-light",
+              color: theme("colors.gray.800"),
+            },
             h2: {
               fontWeight: "font-light",
               color: theme("colors.gray.800"),

@@ -6,6 +6,13 @@ html {
   @apply tracking-tighter text-slate-800;
 }
 
+body {
+  @apply bg-white;
+  background-image: radial-gradient(rgb(185, 185, 185) 1px, transparent 0);
+  background-size: 100px 100px;
+  background-position: -19px -19px;
+}
+
 h1 {
   @apply text-4xl text-black;
 }
