@@ -29,7 +29,7 @@ const PostTemplate = ({ data }) => {
               </li>
             ))}
         </ul>
-        <article className="my-6 prose prose-green lg:prose-xl">
+        <article className="my-6 prose-green lg:prose-xl">
           <MDXRenderer>{postNode.body}</MDXRenderer>
         </article>
       </Layout>
