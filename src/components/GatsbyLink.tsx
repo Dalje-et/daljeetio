@@ -57,7 +57,7 @@ const Link = ({
     );
   }
   return (
-    <OutboundLink
+    <a
       href={to}
       className={className}
       target="_blank"
@@ -65,7 +65,7 @@ const Link = ({
       {...other}
     >
       {children}
-    </OutboundLink>
+    </a>
   );
 };
 
