@@ -1,11 +1,12 @@
 ---
 slug: first-30-days-as-PM
+title: The first 30 days as a Product Manager
+excerpt: Starting a new PM
+date: 2022-12-12
+location: Paris, France
 tags:
   - product-management
-excerpt: Starting a new PM
 ---
-
-# Service Blueprints
 
 Service design is the activity of planning and organizing a business’s resources (people, props, and processes) in order to (1) directly improve the employee’s experience, and (2) indirectly, the customer’s experience. Service blueprinting is the primary mapping tool used in the service design process.
 
