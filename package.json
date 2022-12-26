@@ -1,9 +1,9 @@
 {
-  "name": "obsidian-starter",
+  "name": "daljeet.io",
   "version": "1.0.0",
   "private": true,
   "description": "Gatsby starter built for Obsidian vault content",
-  "author": "Samuel Wong <hello@juxtdesign.cc> (https://juxtdesign.cc)",
+  "author": "Daljeet Sandu (daljeet.io)",
   "keywords": [
     "gatsby",
     "starter",

@@ -2,6 +2,7 @@ import React from "react";
 import { graphql } from "gatsby";
 import MdxProvider from "@/components/MDXProvider";
 import { MDXRenderer } from "gatsby-plugin-mdx";
+import PostLayout from "@/components/Layouts/PostLayout";
 import Layout from "@/components/Layout";
 // import SEO from '@/components/seo';
 import Link from "@/components/GatsbyLink";
@@ -16,7 +17,7 @@ const PostTemplate = ({ data }) => {
 
   return (
     <MdxProvider>
-      <Layout>
+      <PostLayout>
         {/* <SEO postNode={data.mdx} postSEO postPath={data.mdx.fields.slug} /> */}
         <small className="text-sm uppercase tracking-tight">
           {post.date}
@@ -29,10 +30,10 @@ const PostTemplate = ({ data }) => {
               </li>
             ))}
         </ul>
-        <article className="my-6 prose-green lg:prose-xl">
+        <article className="my-6 prose prose-green lg:prose-xl">
           <MDXRenderer>{postNode.body}</MDXRenderer>
         </article>
-      </Layout>
+      </PostLayout>
     </MdxProvider>
   );
 };

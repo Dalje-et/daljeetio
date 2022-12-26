@@ -1,7 +1,12 @@
 const plugin = require("tailwindcss/plugin");
 
 module.exports = {
+  mode: 'jit',
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
+  safelist: [
+    // https://github.com/tailwindlabs/tailwindcss/discussions/7908#discussioncomment-2409343
+    ...[...Array(100).keys()].flatMap(i => [`h-[${i}%]`]),
+  ],
   theme: {
     fontFamily: {
       sans: [
