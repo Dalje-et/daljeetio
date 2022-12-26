@@ -21,6 +21,7 @@ exports.createSchemaCustomization = ({ actions }) => {
     type Frontmatter {
       title: String
       date: Date
+      location: String
       tags: [String]
       category: String
       publish: Boolean
@@ -32,6 +33,7 @@ exports.createSchemaCustomization = ({ actions }) => {
       title: String!
       slug: String!
       date: Date!
+      location: String!
       tagSlugs: [String]
       categorySlug: String
       category: String

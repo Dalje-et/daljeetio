@@ -74,6 +74,14 @@ const onCreateNode = ({ node, actions, getNode }) => {
         value: processedFileDate,
       });
     }
+    
+    if (node.frontmatter.location) {
+      createNodeField({
+        node,
+        name: "location",
+        value: node.frontmatter.location
+      })
+    }
 
     if (node.frontmatter.tags) {
       const tagSlugs = node.frontmatter.tags.map(

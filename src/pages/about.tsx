@@ -1,39 +1,30 @@
 import React from "react";
 import { graphql } from "gatsby";
 
-
 import ListNote from "@/components/ListNote";
-import Link from "@/components/GatsbyLink";
 import Layout from "@/components/Layout";
-import Button from "@/components/Button";
 
-import {
-  HERO_TITLE,
-  HERO_SUBTITLE,
-  SITE_TITLE,
-  SITE_DESCRIPTION,
-} from "../../config";
+import { HERO_TITLE, HERO_SUBTITLE } from "../../config";
 
-const IndexPage = ({ data, pageContext }) => {
+const AboutPage = ({ data, pageContext }) => {
   const { edges } = data.allMdx;
 
   return (
     <Layout>
-      <div className="mt-10">
-        <h1 className="text-body text-3xl mt-4 md:text-5xl leading-normal md:leading-snug transition-all ease-in-out">
+      <div className="my-10">
+        <h1 className="text-black text-3xl mt-4 md:text-5xl leading-normal md:leading-snug transition-all ease-in-out">
           {HERO_TITLE}
         </h1>
       </div>
-      <h2 className="text-3xl text-slate-600 mb-6 mt-0">{HERO_SUBTITLE}</h2>
-      <Button to="/blog/" label="See Posts →" />
-      <div className=" mt-8 relative grid grid-cols-12 gap-6">
+      <h2 className="text-3xl text-slate-600 my-6">{HERO_SUBTITLE}</h2>
+      <div className="relative grid grid-cols-12 gap-6">
         <ListNote edges={edges} />
       </div>
     </Layout>
   );
 };
 
-export default IndexPage;
+export default AboutPage;
 
 export const query = graphql`
   query IndexTemplateQuery {

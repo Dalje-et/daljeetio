@@ -9,12 +9,15 @@ module.exports = {
   ],
   theme: {
     fontFamily: {
-      sans: [
-        "Roboto\\ Serif"
-      ],
       mono: ["Space Mono", "IBM Plex Mono", "monospace"],
     },
     extend: {
+      colors: {
+        'body': '#333',
+        'secondary': '#999',
+        'passive': '#00000026',
+        'passive-hover': '#00000008',
+      },
       typography: (theme) => ({
         DEFAULT: {
           css: {

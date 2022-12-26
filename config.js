@@ -7,8 +7,8 @@ module.exports = {
     "Lessons about product management and career from the day-to-day life of a PM.",
   KEYWORDS: "Product Management, Product Development, Self Development, Design, Psychology",
   HERO_TITLE:
-    "Thoughts on product, design, and psychology.",
-  HERO_SUBTITLE: "",
+    "Yet another tech blog.",
+  HERO_SUBTITLE: "More specifically, it's about product management.",
   COPYRIGHT: "daljeet.io",
   LOCALE: "en",
   POST_PER_PAGE: 6,
@@ -16,6 +16,10 @@ module.exports = {
     {
       label: "About",
       path: "/about/",
+    },
+    {
+      label: "Blog",
+      path: "/blog/",
     }
   ],
   FOOTER: [

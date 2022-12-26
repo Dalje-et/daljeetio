@@ -7,6 +7,7 @@ exports.createSchemaCustomization = ({ actions }) => {
     type Frontmatter {
       title: String
       date: Date
+      location: String
     }
   `;
   createTypes(typeDefs);

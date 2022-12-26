@@ -1,6 +1,8 @@
 import React from "react";
-import Link from "@/components/GatsbyLink";
+
 import Container from "@/components/Container";
+import Link from "@/components/GatsbyLink";
+
 import { MENU } from "../../config";
 
 export default function Header() {
@@ -11,6 +13,13 @@ export default function Header() {
           <Link to="/" className="text-black">
             daljeet.io
           </Link>
+          <ul className="list-style-none grid grid-flow-col auto-cols-max gap-6 items-center">
+            {MENU.map((item) => (
+              <li key={item.label}>
+                <Link to={item.path}>{item.label}</Link>
+              </li>
+            ))}
+          </ul>
         </nav>
       </Container>
     </header>

@@ -7,6 +7,7 @@ export const postFragment = graphql`
     excerpt(pruneLength: 300)
     fields {
       date
+      location
       title
       slug
       tagSlugs
@@ -16,6 +17,7 @@ export const postFragment = graphql`
     }
     frontmatter {
       date
+      location
       tags
       title
       socialImage {
@@ -35,6 +37,7 @@ export const postFragment = graphql`
   fragment postList on Mdx {
     fields {
       date
+      location
       title
       slug
       category
@@ -46,6 +49,7 @@ export const postFragment = graphql`
     frontmatter {
       title
       date
+      location
       category
       tags
       featured

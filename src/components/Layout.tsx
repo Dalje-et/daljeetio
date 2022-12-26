@@ -26,35 +26,17 @@ const Layout: React.FC = ({
   const pageKeywords = keywords || KEYWORDS;
   return (
     <div>
-      {full ? (
-        <>
-          <Helmet htmlAttributes={{ lang: LOCALE }} title={pageTitle}>
-            <meta name="title" content={pageTitle} />
-            <meta name="description" content={pageDescription} />
-            <meta name="keywords" content={pageKeywords} />
-            <meta name="publisher" content={AUTHOR.NAME} />
-            <meta name="author" content={AUTHOR.NAME} />
-            <meta name="copyright" content={COPYRIGHT} />
-          </Helmet>
-          <Header />
-          {children}
-          <Footer />
-        </>
-      ) : (
-        <>
-          <Helmet htmlAttributes={{ lang: LOCALE }} title={pageTitle}>
-            <meta name="title" content={pageTitle} />
-            <meta name="description" content={pageDescription} />
-            <meta name="keywords" content={pageKeywords} />
-            <meta name="publisher" content={AUTHOR.NAME} />
-            <meta name="author" content={AUTHOR.NAME} />
-            <meta name="copyright" content={COPYRIGHT} />
-          </Helmet>
-          <Header />
-          <Container>{children}</Container>
-          <Footer />
-        </>
-      )}
+      <Helmet htmlAttributes={{ lang: LOCALE }} title={pageTitle}>
+        <meta name="title" content={pageTitle} />
+        <meta name="description" content={pageDescription} />
+        <meta name="keywords" content={pageKeywords} />
+        <meta name="publisher" content={AUTHOR.NAME} />
+        <meta name="author" content={AUTHOR.NAME} />
+        <meta name="copyright" content={COPYRIGHT} />
+      </Helmet>
+      <Header />
+      <Container>{children}</Container>
+      <Footer />
     </div>
   );
 };

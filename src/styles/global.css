@@ -5,6 +5,7 @@
 html {
   @apply tracking-tighter text-slate-800;
   scroll-behavior: smooth;
+  font-family: 'Inter', sans-serif
 }
 
 body {
@@ -12,19 +13,19 @@ body {
 }
 
 h1 {
-  @apply text-4xl text-black;
+  @apply text-4xl font-bold antialiased text-body;
 }
 
 h2 {
-  @apply text-2xl font-medium text-black;
+  @apply mt-8 text-3xl font-bold antialiased text-body;  
 }
 
 h3 {
-  @apply text-xl font-medium text-black;
+  @apply mt-8 text-xl font-bold antialiased text-body;
 }
 
 p {
-  @apply text-base;
+  @apply mt-4 text-lg tracking-tight font-normal antialiased text-body;
 }
 
 small {

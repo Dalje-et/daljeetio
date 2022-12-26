@@ -1,10 +1,5 @@
 import { Link as GatsbyLink } from "gatsby";
 import React from "react";
-import { OutboundLink } from "gatsby-plugin-google-analytics";
-
-// const activeStyle = {
-//   font-weight: 600
-// }
 
 const defaultProps: LinkProps = {
   target: `_self`,
