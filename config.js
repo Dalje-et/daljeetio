@@ -2,13 +2,13 @@ module.exports = {
   url: "https://daljeet.io",
   pathPrefix: "",
   SITE_TITLE: "daljeet.io",
-  SITE_SUBTITLE: "Product Management and Development",
+  SITE_SUBTITLE: "Product Management, Software Engineering and Design",
   SITE_DESCRIPTION:
-    "Lessons about product management and career from the day-to-day life of a PM.",
-  KEYWORDS: "Product Management, Product Development, Self Development, Design, Psychology",
+    "Ultimate insights into tech and the lives of Product Managers, Software Engineers and Designers.",
+  KEYWORDS: "Product Management, Software Engineering, Development, Design, Psychology",
   HERO_TITLE:
     "Yet another tech blog.",
-  HERO_SUBTITLE: "More specifically, it's about product management.",
+  HERO_SUBTITLE: "Product Management, Software Engineering and Design",
   COPYRIGHT: "daljeet.io",
   LOCALE: "en",
   POST_PER_PAGE: 6,

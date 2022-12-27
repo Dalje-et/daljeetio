@@ -2,7 +2,8 @@ import React from "react";
 import { graphql } from "gatsby";
 
 
-import ListNote from "@/components/ListNote";
+import About from "@/components/Index/About";
+// import ListNote from "@/components/ListNote";
 import Link from "@/components/GatsbyLink";
 import Layout from "@/components/Layout";
 import Button from "@/components/Button";
@@ -26,9 +27,8 @@ const IndexPage = ({ data, pageContext }) => {
       </div>
       <h2 className="text-3xl text-slate-600 mb-6 mt-0">{HERO_SUBTITLE}</h2>
       <Button to="/blog/" label="See Posts →" />
-      <div className=" mt-8 relative grid grid-cols-12 gap-6">
-        <ListNote edges={edges} />
-      </div>
+      
+      <About />
     </Layout>
   );
 };
