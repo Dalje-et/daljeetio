@@ -12,6 +12,9 @@ module.exports = {
       mono: ["Space Mono", "IBM Plex Mono", "monospace"],
     },
     extend: {
+      gridTemplateColumns: {
+        twoColumn: "repeat(auto-fit, minmax(200px, 1fr))"
+      },
       colors: {
         'body': '#333',
         'secondary': '#999',
