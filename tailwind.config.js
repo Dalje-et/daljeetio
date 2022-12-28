@@ -17,7 +17,7 @@ module.exports = {
       },
       colors: {
         'body': '#333',
-        'secondary': '#999',
+        'secondary': '#b2b2b2',
         'passive': '#00000026',
         'passive-hover': '#00000008',
       },

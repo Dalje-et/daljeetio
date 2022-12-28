@@ -1,6 +1,6 @@
-import Layout from "@/components/Layout";
+import Layout from "@/components/Layout/Layout";
 import React from "react";
-import ListNote from "@/components/ListNote";
+import ListNote from "@/components/Article/ListNote";
 import { graphql } from "gatsby";
 import { SITE_TITLE } from "../../config";
 

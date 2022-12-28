@@ -1,8 +1,8 @@
 import React from "react";
 
-import Container from "@/components/Container";
+import Container from "@/components/Layout/Container";
 
-import { COPYRIGHT } from "../../config";
+import { COPYRIGHT } from "../../../config";
 
 export default function Footer() {
   return (

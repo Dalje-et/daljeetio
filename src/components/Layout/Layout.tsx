@@ -1,7 +1,7 @@
 import React, { ReactNode } from "react";
-import Header from "@/components/Header";
-import Container from "@/components/Container";
-import Footer from "@/components/Footer";
+import Header from "@/components/Layout/Header";
+import Container from "@/components/Layout/Container";
+import Footer from "@/components/Layout/Footer";
 import {
   LOCALE,
   COPYRIGHT,
@@ -9,7 +9,7 @@ import {
   KEYWORDS,
   SITE_DESCRIPTION,
   SITE_TITLE,
-} from "../../config";
+} from "../../../config";
 import { Helmet } from "react-helmet";
 
 const Layout: React.FC = ({

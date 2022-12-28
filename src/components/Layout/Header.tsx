@@ -1,9 +1,9 @@
 import React from "react";
 
-import Container from "@/components/Container";
+import Container from "@/components/Layout/Container";
 import Link from "@/components/GatsbyLink";
 
-import { MENU } from "../../config";
+import { MENU } from "../../../config";
 
 export default function Header() {
   return (

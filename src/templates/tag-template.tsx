@@ -1,7 +1,7 @@
 import React from "react";
 import { graphql } from "gatsby";
-import Layout from "@/components/Layout";
-import ListNote from "@/components/ListNote";
+import Layout from "@/components/Layout/Layout";
+import ListNote from "@/components/Article/ListNote";
 import { PageContext, AllMdx } from "@/utils/type";
 import { SITE_TITLE } from "../../config";
 import kebabCase from "lodash.kebabcase";

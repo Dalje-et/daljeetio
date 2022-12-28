@@ -5,7 +5,7 @@ export default function ListNote({ edges }) {
   return (
     <>
       {edges.map((edge) => (
-        <div className="col-span-12 md:col-span-6 my-2 py-4 md:my-0 border-color-slate-200 border-b last:border-none">
+        <div className="col-span-12 md:col-span-6 my-2 py-4 md:my-0">
           <div className="items-center uppercase leading-relaxed">
             <time>{edge.node.fields.date}</time>
           </div>

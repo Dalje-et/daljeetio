@@ -1,8 +1,8 @@
 import { graphql } from "gatsby";
 import React from "react";
 
-import ListNote from "@/components/ListNote";
-import Layout from "@/components/Layout";
+import ListNote from "@/components/Article/ListNote";
+import Layout from "@/components/Layout/Layout";
 
 import { HERO_TITLE, HERO_SUBTITLE } from "../../config";
 
@@ -18,7 +18,7 @@ const BlogPage = ({ data, pageContext }) => {
     <Layout title={title} description={description} keywords={keywords}>
       <div className="mt-10">
         <h1 className="text-3xl mt-4 md:text-5xl leading:snug md:leading-normal">
-          {HERO_TITLE}
+          Posts
         </h1>
       </div>
       <h2 className="text-xl text-slate-600 mb-6 mt-0 md:text-3xl">

@@ -3,10 +3,10 @@ import kebabCase from "lodash.kebabcase";
 import { graphql } from "gatsby";
 import React from "react";
 
-import BlogBackLink from "@/components/BlogBackLink"
-import MdxProvider from "@/components/MDXProvider";
+import MdxProvider from "@/components/Layout/MDX/MDXProvider";
+import BlogBackLink from "@/components/Article/BlogBackLink"
 import Link from "@/components/GatsbyLink";
-import Layout from "@/components/Layout";
+import Layout from "@/components/Layout/Layout";
 
 const PostTemplate = ({ data }) => {
   const postNode = data.mdx;

@@ -1,7 +1,7 @@
 import React from "react";
 import { graphql } from "gatsby";
 
-import Layout from "@/components/Layout";
+import Layout from "@/components/Layout/Layout";
 import Button from "@/components/Button";
 import Card from "@/components/Card";
 
@@ -14,9 +14,8 @@ const title = "daljeet.io | Home";
 const description = "description";
 const keywords = "comma separated keywords";
 
-const IndexPage = ({ data, pageContext }) => {
-  const { edges } = data.allMdx;
-
+const IndexPage = () => {
+  
   return (
     <Layout title={title} description={description} keywords={keywords}>
       <div className="mt-10">
@@ -48,22 +47,3 @@ const IndexPage = ({ data, pageContext }) => {
 };
 
 export default IndexPage;
-
-export const query = graphql`
-  query IndexTemplateQuery {
-    allMdx(
-      filter: {
-        frontmatter: { publish: { ne: false } }
-        fileAbsolutePath: { regex: "/vault/" }
-      }
-      limit: 10
-      sort: { order: DESC, fields: fields___date }
-    ) {
-      edges {
-        node {
-          ...postList
-        }
-      }
-    }
-  }
-`;

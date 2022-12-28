@@ -2,9 +2,9 @@ import React, { ReactNode } from "react";
 import { Helmet } from "react-helmet";
 
 import ArticleProgressBar from "@/components/Fun/ArticleProgressBar";
-import Container from "@/components/Container";
-import Header from "@/components/Header";
-import Footer from "@/components/Footer";
+import Container from "@/components/Layout/Container";
+import Header from "@/components/Layout/Header";
+import Footer from "@/components/Layout/Footer";
 
 import {
   LOCALE,
