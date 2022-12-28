@@ -1,46 +1,65 @@
 import React from "react";
-import { graphql } from "gatsby";
 
-import ListNote from "@/components/ListNote";
 import Layout from "@/components/Layout";
+import Button from "@/components/Button";
 
-import { HERO_TITLE, HERO_SUBTITLE } from "../../config";
+const title = "daljeet.io | About Me 👨🏽‍💻";
+const description = "Site Description";
+const keywords = "comma separated keywords";
 
-const AboutPage = ({ data, pageContext }) => {
-  const { edges } = data.allMdx;
-
+const AboutPage = () => {
   return (
-    <Layout>
-      <div className="my-10">
-        <h1 className="text-black text-3xl mt-4 md:text-5xl leading-normal md:leading-snug transition-all ease-in-out">
-          {HERO_TITLE}
+    <Layout title={title} description={description} keywords={keywords}>
+      <div className="mt-10">
+        <h1 className="text-3xl mt-4 md:text-5xl leading:snug md:leading-normal">
+          About Me 👨🏽‍💻
         </h1>
       </div>
-      <h2 className="text-3xl text-slate-600 my-6">{HERO_SUBTITLE}</h2>
-      <div className="relative grid grid-cols-12 gap-6">
-        <ListNote edges={edges} />
-      </div>
+      <h2 className="text-xl text-slate-600 mb-6 mt-0 md:text-3xl">
+        Thanks for visting my page!
+      </h2>
+      <Button to="/blog/" label="Check out my Blog →" />
+
+      <h2 className="text-xl mt-20 md:text-3xl">👋🏽</h2>
+      <p>
+        Hey there! I'm Daljeet - the author of this blog. What you'll find here
+        are explorations and celebrations of ideas, concepts, developments, and
+        randomness related to tech and life.
+      </p>
+
+      <p>
+        Currently, I work as a Product Manager for a company called{" "}
+        <a href="https://datadoghq.com" target="_blank">
+          Datadog
+        </a>{" "}
+        but every now and then, I like to go back to being a Software Engineer.
+        You'll see a healthy mix of <strong>product management </strong>,{" "}
+        <strong>software engineering</strong>, and{" "}
+        <strong>general life </strong>
+        related articles on this page.
+      </p>
+
+      <h2 className="text-xl mt-20 md:text-3xl">More Stuff</h2>
+      <p>
+        <ol className="list-decimal space-y-2">
+          <li>
+            This page is{" "}
+            <a href="https://www.github.com/Dalje-et/daljeetio" target="_blank">
+              open source
+            </a>
+            .
+          </li>
+          <li>
+            You can reach out to me on Twitter via{" "}
+            <a href="https://www.twitter.com/daljeetsan" target="_blank">
+              @dajeetsan
+            </a>
+            .
+          </li>
+        </ol>
+      </p>
     </Layout>
   );
 };
 
 export default AboutPage;
-
-export const query = graphql`
-  query IndexTemplateQuery {
-    allMdx(
-      filter: {
-        frontmatter: { publish: { ne: false } }
-        fileAbsolutePath: { regex: "/vault/" }
-      }
-      limit: 10
-      sort: { order: DESC, fields: fields___date }
-    ) {
-      edges {
-        node {
-          ...postList
-        }
-      }
-    }
-  }
-`;

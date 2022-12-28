@@ -1,7 +1,7 @@
 import React, { ReactNode } from "react";
 import { Helmet } from "react-helmet";
 
-import ArticleProgressBar from "@/components/Layouts/ArticleProgressBar";
+import ArticleProgressBar from "@/components/Fun/ArticleProgressBar";
 import Container from "@/components/Container";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";

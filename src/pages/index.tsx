@@ -10,17 +10,21 @@ import {
   HERO_SUBTITLE
 } from "../../config";
 
+const title = "daljeet.io | Home";
+const description = "description";
+const keywords = "comma separated keywords";
+
 const IndexPage = ({ data, pageContext }) => {
   const { edges } = data.allMdx;
 
   return (
-    <Layout>
+    <Layout title={title} description={description} keywords={keywords}>
       <div className="mt-10">
-        <h1 className="text-body text-3xl mt-4 md:text-5xl leading-normal md:leading-snug transition-all ease-in-out">
+        <h1 className="text-3xl mt-4 md:text-5xl leading:snug md:leading-normal">
           {HERO_TITLE}
         </h1>
       </div>
-      <h2 className="text-3xl text-slate-600 mb-6 mt-0">{HERO_SUBTITLE}</h2>
+      <h2 className="text-xl text-slate-600 mb-6 mt-0 md:text-3xl">{HERO_SUBTITLE}</h2>
       <Button to="/blog/" label="See Posts →" />
       
       <div className="mt-16">
