@@ -1,32 +1,50 @@
 ---
-slug: first-30-days-as-PM
-title: The first 30 days as a Product Manager
+slug: first-X-days-as-a-PM
+title: The first X days as a Product Manager
 excerpt: Starting a new PM
-date: 2022-12-12
+date: 2023-02-06
 location: Paris, France
 tags:
   - product-management
 ---
 
-Service design is the activity of planning and organizing a business’s resources (people, props, and processes) in order to (1) directly improve the employee’s experience, and (2) indirectly, the customer’s experience. Service blueprinting is the primary mapping tool used in the service design process.
+Being a Product Manager means juggling various topics at once. This becomes easier over time as one develops certain stamina for back to back meetings, sees reoccurring patterns in different situations, or just has a stronger intuition. 
 
-## What Is a Service Blueprint?
+All of this is often based on a strong foundation, a cemented base that holds up history, context, thoughts, judgments, and anything else relevant. Building this foundation early is important, as you'll be prone to bias at a later stage. 
 
-**Definition**: A service blueprint is a diagram that visualizes the relationships between different service components — people, props (physical or digital evidence), and processes — that are directly tied to touchpoints in a specific customer journey.
+Therefore, it is of utmost importance to study as much as possible within your first few weeks. Good product managers constantly learn, [constantly gather information informally](https://a16z.com/2012/06/15/good-product-managerbad-product-manager/), and constantly listen to the signals their environment is giving them.
 
-Think of service blueprints as a part two to customer journey maps. Similar to customer-journey maps, blueprints are instrumental in complex scenarios spanning many service-related offerings. Blueprinting is an ideal approach to experiences that are omnichannel, involve multiple touchpoints, or require a crossfunctional effort (that is, coordination of multiple departments).
+## Study your product
+You must become the de-facto go-to person when it comes to your product. No matter the question, you either need to have the answer or or know how to get to it. Use your product. Try to break it. Then fix it. Afterwards, break something else. Study its quirks, see where its performance is lacking. Learn from its winning features, closely monitor features that struggle gaining adoption.
 
-A service blueprint corresponds to a specific customer journey and the specific user goals associated to that journey. This journey can vary in scope. Thus, for the same service, you may have multiple blueprints if there are several different scenarios that it can accommodate. For example, with a restaurant business, you may have separate service blueprints for the tasks of ordering food for takeout versus dining in the restaurant.
+If you have a support team, stay close to them. Learn from their experiences. If possible, do the support yourself. Build empathy for existing users. Pay special attention to support requests from customers that have been using your product for a long time. They might have outlived your predecessor Product Managers. Learn from their journey.
 
-Service blueprints should always align to a business goal: reducing redundancies, improving the employee experience, or converging siloed processes.
+Most importantly, focus on studying by asking questions and not by raising judgement. Don't arrive at a place of business and insult its operators (even if they might deserve it). Stay curious. Replace raising concerns with raising questions. Become the de-facto go-to person when it comes to your product.
 
-## Benefits of Service Blueprinting
+## Study your market
+Who's your customer? Why do they need your product? Where are you in the grand scheme of things? Who are you competing with? Where are they out- and under-performing you?
 
-Service blueprints give an organization a comprehensive understanding of its service and the underlying resources and processes — seen and unseen to the user — that make it possible. Focusing on this larger understanding (alongside more typical usability aspects and individual touchpoint design) provides strategic benefits for the business.
+Don't be naive. The world is full of smart people and sometimes smart people have similar smart ideas. You won't be the only one working on your problems. Observe and learn from the others.
 
-Blueprints are treasure maps that help businesses discover weaknesses. Poor user experiences are often due to an internal organizational shortcoming — a weak link in the ecosystem. While we can quickly understand what may be wrong in a user interface (bad design or a broken button), determining the root cause of a systemic issue (such as corrupted data or long wait times) is much more difficult. Blueprinting exposes the big picture and offers a map of dependencies, thus allowing a business to discover a weak leak at its roots.
+What are customers thinking about your company overall? How much churn and retention does your company have? What are reasons for churning? How much additional revenue does your product get from existing customers? Even if you are working on an internal product, especially for SaaS companies, it's important to know these things. As a Product Manager, you need to understand the business and where it's heading. For your own sake. For the market's sake.
 
-In this same way, blueprints help identify opportunities for optimization. The visualization of relationships in blueprints uncovers potential improvements and ways to eliminate redundancy. For example, information gathered early on in the customer’s journey could possibly be repurposed later on backstage. This approach has three positive effects: (1) customers are delighted when they are recognized the second time — the service feels personal and they save time and effort; (2) employee time and effort are not wasted regathering information; (3) no risk of inconsistent data when the same question isn’t asked twice.
+## Study your team
+Don't just schedule one-on-one calls with your immediate team members. Figure out what drives them. What do they see critical in their current roles? Distinguish product-minded engineers from the ones that aren't. Which team leads tend to dispute product decisions? Which ones accept everything you bring to their attention?
 
-Blueprinting is most useful when coordinating complex services because it bridges crossdepartment efforts. Often, a department’s success is measured by the touchpoint it owns. However, users encounter many touchpoints throughout one journey and don’t know (or care) which department owns which touchpoint. While a department could meet its goal, the big-picture, organization-level objectives may not be reached. Blueprinting forces businesses to capture what occurs internally throughout the totality of the customer journey — giving them insight to overlaps and dependencies that departments alone could not see.
-NNg Service Blueprint Example
+Same as with customers: which team members have been around the longest? Find out why. Learn from their experiences. Learn the dos and don'ts of your company. 
+
+All this information is not to play mind games, not to study your team members' mind and soul. It's purely pragmatic. You are going to have to make decisions; choices that will determine who might work on which certain topics and it's crucial for you and your product that you make _informed_ decisions whenever possible. 
+
+Knowing your team and each member's strengths and challenges isn't to leverage it for meaningless politics. It's for pushing forward your product, together, with the sole purpose of generating value for customers and expanding the business. Don't forget that it's the only goal a product manager has. People won't tell you that they don't like talking about the what and the why, but would rather just focus on the how. It's your responsibility to distill as much clarity as possible about your team's dynamics.
+
+## Study your management
+This shouldn't change your day-to-day life. However, especially in larger product organizations, it won't hurt to know how management works. How are things settled between two conflicting orgs? 
+
+On a personal level, who determines aspects about your careers? Who decides on your scope, your responsibility, and consequently, your compensation? Understand that the person you report to might not be the one-stop-shop for all your career related questions, which is fine. Be comfortable to speak about these topics with whichever person you deem ideal.
+
+Among all of the things to study to, this is the least urgent. Take your time and don't be pushy. What you want to be is curious, not nosy. 
+
+## After X+1 days
+All of the above isn't just a one-time thing. It's your responsibility to constantly exercise, gather and interpret information from your environment, and use to to make the best possible decisions for your product.
+
+Keep in mind that information changes over time. A lot of what you'll be doing is based on assumptions, start being comfortable with that. Have empathy with current aspects of your product that might have been built when certain assumptions couldn't be fully verified. Have empathy for the past and be careful when raising judgement. Instead of agreement, you might run into resentment. 
