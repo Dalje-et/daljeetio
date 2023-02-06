@@ -40,7 +40,7 @@ Knowing your team and each member's strengths and challenges isn't to leverage i
 ## Study your management
 This shouldn't change your day-to-day life. However, especially in larger product organizations, it won't hurt to know how management works. How are things settled between two conflicting orgs? 
 
-On a personal level, who determines aspects about your careers? Who decides on your scope, your responsibility, and consequently, your compensation? Understand that the person you report to might not be the one-stop-shop for all your career related questions, which is fine. Be comfortable to speak about these topics with whichever person you deem ideal.
+On a personal level, who determines aspects about your career? Who decides on your scope, your responsibility, and consequently, your compensation? Understand that the person you report to might not be the one-stop-shop for all your career related questions, which is fine. Be comfortable to speak about these topics with whichever person you deem ideal, but understand that there's a way of doing it. [Der Ton macht die Musik](https://tureng.com/en/german-english/der%20ton%20macht%20die%20musik).
 
 Among all of the things to study to, this is the least urgent. Take your time and don't be pushy. What you want to be is curious, not nosy. 
 
