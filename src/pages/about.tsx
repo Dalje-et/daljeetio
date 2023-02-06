@@ -29,8 +29,8 @@ const AboutPage = () => {
 
       <p>
         Currently, I work as a Product Manager for a company called{" "}
-        <a href="https://datadoghq.com" target="_blank">Datadog</a>{" "}
-        but every now and then, I like to go back to being a Software Engineer.
+        <a href="https://datadoghq.com" target="_blank">Datadog</a>,
+        but every now and then I like to go back to being a Software Engineer.
         You'll see a healthy mix of <strong>product management</strong>,{" "}
         <strong>software engineering</strong>, and{" "}
         <strong>general life </strong>
