@@ -1,7 +1,7 @@
 ---
 slug: first-X-days-as-a-PM
 title: The first X days as a Product Manager
-excerpt: Starting a new PM
+excerpt: Building a strong foundation as a new Product Manager is important. However, there are just so many things to do and not enough time. Here's a couple of things one should focus on when starting a new job as a Product Manager.
 date: 2023-02-06
 location: Paris, France
 tags:

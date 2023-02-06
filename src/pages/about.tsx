@@ -29,13 +29,7 @@ const AboutPage = () => {
 
       <p>
         Currently, I work as a Product Manager for a company called{" "}
-        <a
-          className="text-violet-700"
-          href="https://datadoghq.com"
-          target="_blank"
-        >
-          Datadog
-        </a>{" "}
+        <a href="https://datadoghq.com" target="_blank">Datadog</a>{" "}
         but every now and then, I like to go back to being a Software Engineer.
         You'll see a healthy mix of <strong>product management</strong>,{" "}
         <strong>software engineering</strong>, and{" "}
@@ -48,25 +42,12 @@ const AboutPage = () => {
         <ol className="list-decimal space-y-2 list-inside">
           <li>
             This page is{" "}
-            <a
-              className="text-violet-700"
-              href="https://www.github.com/Dalje-et/daljeetio"
-              target="_blank"
-            >
-              open source
-            </a>
+            <a href="https://www.github.com/Dalje-et/daljeetio" target="_blank">open source</a>
             .
           </li>
           <li>
             You can reach out to me on Twitter via{" "}
-            <a
-              className="text-violet-700"
-              href="https://www.twitter.com/daljeetsan"
-              target="_blank"
-            >
-              @daljeetsan
-            </a>
-            .
+            <a href="https://www.twitter.com/daljeetsan" target="_blank">@daljeetsan</a>.
           </li>
         </ol>
       </p>

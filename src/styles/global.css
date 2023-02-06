@@ -43,3 +43,7 @@ a {
 strong {
   @apply font-bold;
 }
+
+p a {
+  @apply text-amber-700;
+}
