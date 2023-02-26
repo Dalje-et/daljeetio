@@ -33,6 +33,7 @@ const Layout: React.FC = ({
         <meta name="publisher" content={AUTHOR.NAME} />
         <meta name="author" content={AUTHOR.NAME} />
         <meta name="copyright" content={COPYRIGHT} />
+        <script async defer src="https://analytics.umami.is/script.js" data-website-id="5160df2c-1bad-4749-ad3e-37a12dab6ffe"></script>
       </Helmet>
       <Header />
       <Container>{children}</Container>
