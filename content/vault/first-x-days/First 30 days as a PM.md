@@ -15,7 +15,7 @@ All of this is often based on a strong foundation, a cemented base that holds up
 Therefore, it is of utmost importance to study as much as possible within your first few weeks. Good product managers constantly learn, [constantly gather information informally](https://a16z.com/2012/06/15/good-product-managerbad-product-manager/), and constantly listen to the signals their environment is giving them.
 
 ## Study your product
-You must become the de-facto go-to person when it comes to your product. No matter the question, you either need to have the answer or or know how to get to it. Use your product. Try to break it. Then fix it. Afterwards, break something else. Study its quirks, see where its performance is lacking. Learn from its winning features, closely monitor features that struggle gaining adoption.
+You must become the de-facto go-to person when it comes to your product. No matter the question, you either need to have the answer or know how to get to it. Use your product. Try to break it. Then fix it. Afterwards, break something else. Study its quirks, see where its performance is lacking. Learn from its winning features, closely monitor features that struggle gaining adoption.
 
 If you have a support team, stay close to them. Learn from their experiences. If possible, do the support yourself. Build empathy for existing users. Pay special attention to support requests from customers that have been using your product for a long time. They might have outlived your predecessor Product Managers. Learn from their journey.
 

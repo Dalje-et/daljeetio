@@ -11,13 +11,12 @@ import {
 } from "../../config";
 
 const title = "daljeet.io | Home";
-const description = "description";
-const keywords = "comma separated keywords";
+const keywords = "product management,tech,softtware engineering,product design,career advice";
 
 const IndexPage = () => {
   
   return (
-    <Layout title={title} description={description} keywords={keywords}>
+    <Layout title={title} description={HERO_SUBTITLE} keywords={keywords}>
       <div className="mt-10">
         <h1 className="text-3xl mt-4 md:text-5xl leading:snug md:leading-normal">
           {HERO_TITLE}

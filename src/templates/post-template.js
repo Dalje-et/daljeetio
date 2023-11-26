@@ -11,9 +11,7 @@ import Layout from "@/components/Layout/Layout";
 const PostTemplate = ({ data }) => {
   const postNode = data.mdx;
   const post = data.mdx.fields;
-  const { tags, category } = postNode.frontmatter;
   const postTitle = data.mdx.frontmatter.title;
-  console.log(data.mdx)
   // const pageTitle = `${postTitle} - ${siteTitle}`;
 
   return (

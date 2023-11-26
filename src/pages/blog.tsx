@@ -10,10 +10,9 @@ const title = "daljeet.io | Blog 📖";
 const description = "description";
 const keywords = "comma separated keywords";
 
-const BlogPage = ({ data, pageContext }) => {
+const BlogPage = ({ data }) => {
   const { edges } = data.allMdx;
-  console.log(pageContext);
-
+  
   return (
     <Layout title={title} description={description} keywords={keywords}>
       <div className="mt-10">
