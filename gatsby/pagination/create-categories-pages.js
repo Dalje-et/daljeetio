@@ -11,10 +11,10 @@ module.exports = async (graphql, actions) => {
       allMdx(
         filter: {
           frontmatter: { publish: { ne: false } }
-          fileAbsolutePath: { regex: "/vault/" }
+          internal: { contentFilePath: { regex: "/vault/" } }
         }
       ) {
-        group(field: fields___category) {
+        group(field: { fields: { category: SELECT } }) {
           fieldValue
           totalCount
         }

@@ -9,7 +9,7 @@ const createStagePages = require("./pagination/create-stage-pages.js");
 const query = `
   {
     posts: allMdx(
-      filter: {frontmatter: {publish: {ne: false}}, fileAbsolutePath: {regex: "/vault/"}}
+      filter: {frontmatter: {publish: {ne: false}}, internal: {contentFilePath: {regex: "/vault/"}}}
     ) {
       edges {
         node {

@@ -49,7 +49,7 @@ export const query = graphql`
       # limit: $postsLimit
       # skip: $postsOffset
       filter: { frontmatter: { publish: { ne: false }, tags: { in: [$tag] } } }
-      sort: { order: DESC, fields: fields___date }
+      sort: { fields: { date: DESC } }
     ) {
       edges {
         node {

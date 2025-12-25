@@ -37,10 +37,10 @@ export const query = graphql`
     allMdx(
       filter: {
         frontmatter: { publish: { ne: false } }
-        fileAbsolutePath: { regex: "/vault/" }
+        internal: { contentFilePath: { regex: "/vault/" } }
       }
       limit: 10
-      sort: { order: DESC, fields: fields___date }
+      sort: { frontmatter: { date: DESC } }
     ) {
       edges {
         node {

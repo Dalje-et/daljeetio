@@ -52,7 +52,7 @@ export const query = graphql`
         frontmatter: { publish: { ne: false } }
         fields: { stage: { eq: $stage } }
       }
-      sort: { order: DESC, fields: fields___date }
+      sort: { fields: { date: DESC } }
     ) {
       edges {
         node {
