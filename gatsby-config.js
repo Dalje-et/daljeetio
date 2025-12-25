@@ -26,31 +26,14 @@ module.exports = {
       resolve: `gatsby-plugin-mdx`,
       options: {
         extensions: [`.mdx`, `.md`],
-        defaultLayouts: {
-          default: require.resolve("./src/templates/default-template.tsx"),
+        mdxOptions: {
+          remarkPlugins: [],
+          rehypePlugins: [],
         },
-        plugins: [`gatsby-remark-images`, "gatsby-remark-unwrap-images"],
         gatsbyRemarkPlugins: [
-          // {
-          //   resolve: `gatsby-remark-wiki-link`,
-          //   options: {
-          //     slugify: `${__dirname}/src/utils/make-slug.js`,
-          //     stripBrackets: true,
-          //   },
-          // },
           {
             resolve: `gatsby-remark-relative-images`,
-            options: {
-              // [Optional] The root of "media_folder" in your config.yml
-              // Defaults to "static"
-              // staticFolderName: 'media',
-              // [Optional] Include the following fields, use dot notation for nested fields
-              // All fields are included by default
-              // include: ['featured'],
-              // [Optional] Exclude the following fields, use dot notation for nested fields
-              // No fields are excluded by default
-              // exclude: ['featured.skip'],
-            },
+            options: {},
           },
           {
             resolve: `gatsby-remark-images`,
