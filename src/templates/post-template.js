@@ -1,4 +1,3 @@
-import { MDXRenderer } from "gatsby-plugin-mdx";
 import kebabCase from "lodash.kebabcase";
 import { graphql } from "gatsby";
 import React from "react";
@@ -8,7 +7,7 @@ import BlogBackLink from "@/components/Article/BlogBackLink"
 import Link from "@/components/GatsbyLink";
 import Layout from "@/components/Layout/Layout";
 
-const PostTemplate = ({ data }) => {
+const PostTemplate = ({ data, children }) => {
   const postNode = data.mdx;
   const post = data.mdx.fields;
   const postTitle = data.mdx.frontmatter.title;
@@ -32,7 +31,7 @@ const PostTemplate = ({ data }) => {
             ))}
         </ul> */ }
         <article className="my-6">
-          <MDXRenderer>{postNode.body}</MDXRenderer>
+          {children}
         </article>
       </Layout>
     </MdxProvider>

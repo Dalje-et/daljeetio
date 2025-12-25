@@ -3,7 +3,6 @@ import { graphql } from "gatsby";
 export const postFragment = graphql`
   fragment post on Mdx {
     id
-    body
     excerpt(pruneLength: 300)
     fields {
       date
