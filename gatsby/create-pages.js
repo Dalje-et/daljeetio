@@ -19,6 +19,9 @@ const query = `
           frontmatter {
             title
           }
+          internal {
+            contentFilePath
+          }
         }
       }
     }
@@ -71,7 +74,7 @@ const createPages = async ({ graphql, actions }) => {
   posts.edges.forEach(({ node }) => {
     createPage({
       path: node.fields.slug,
-      component: path.resolve("./src/templates/post-template.js"),
+      component: `${path.resolve("./src/templates/post-template.js")}?__contentFilePath=${node.internal.contentFilePath}`,
       context: {
         slug: node.fields.slug,
         title: node.fields.title,
