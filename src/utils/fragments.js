@@ -26,11 +26,6 @@ export const postFragment = graphql`
         }
       }
     }
-    headings {
-      depth
-      value
-    }
-    tableOfContents
   }
 
   fragment postList on Mdx {
